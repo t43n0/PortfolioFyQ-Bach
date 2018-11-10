@@ -179,6 +179,15 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 .menu{
     text-align: center;
 }
+.goTop {
+    padding: 0.5rem 0.81rem;
+    background-color:#2067ac;
+    border-radius: 100%;
+    color: white;
+    position: fixed;
+    bottom: 2.5rem;
+    right: 0.7rem;
+}
 .firm {
     color: #858585
 }
