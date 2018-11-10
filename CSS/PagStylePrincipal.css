@@ -91,14 +91,15 @@ input#abrir-cerrar {
 }
 label[for="abrir-cerrar"] {
     cursor:pointer;
-    padding: 1rem 1.3rem;
+    padding: 0.5rem 1.3rem;
     position: absolute;
-    top:0.5rem;
+    top:0.3rem;
     left:1.5rem;
     background-color: transparent;
     color:#fff;
     display:inline-block;
     border-radius: 100%;
+    font-size: 2rem;
 }
 .cerrar {
     display:none;
@@ -186,7 +187,12 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     color: white;
     position: fixed;
     bottom: 2.5rem;
-    right: 0.7rem;
+    right: 0.5%;
+    text-decoration: none;
+}
+.goTop:hover {
+    text-decoration: none;
+    color: white;
 }
 .firm {
     color: #858585
