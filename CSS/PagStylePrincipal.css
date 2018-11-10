@@ -13,8 +13,13 @@ body {
     color: white;
 }
 a.Plink:hover {
-    color: black;
+    color: white;
     text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 9px;
+    padding-right: 6px;
+    padding-left: 6px;
+    background-color:#267cd0;
 }
 header {
     padding-top: 15px;
