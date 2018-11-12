@@ -181,7 +181,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     text-align: center;
 }
 .goTop {
-    padding: 0.5rem 0.81rem;
+    padding: 0.4rem 0.7rem 0.4rem 0.7rem;
     background-color:#2067ac;
     border-radius: 100%;
     color: white;
