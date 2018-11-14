@@ -74,6 +74,7 @@ article {
     margin-left:5%;
     margin-right:5%;
     text-align: justify;
+    z-index: 1;
 }
 footer {
     position:absolute;
@@ -102,15 +103,11 @@ input#abrir-cerrar {
 }
 label[for="abrir-cerrar"] {
     cursor:pointer;
-    padding: 0.5rem 1.3rem;
-    position: absolute;
-    top:0.3rem;
-    left:0.7rem;
+    position: fixed;
+    bottom:60%;
+    left:0rem;
     background-color: transparent;
-    color:#fff;
-    display:inline-block;
-    border-radius: 100%;
-    font-size: 2rem;
+    z-index: 2;
 }
 .cerrar {
     display:none;
@@ -140,7 +137,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     width: 0;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 3;
     background-color: #00324b;
     overflow-x: hidden;
     transition: 0.4s;
