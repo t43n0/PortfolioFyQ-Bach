@@ -108,6 +108,27 @@ label[for="abrir-cerrar"] {
     left:0rem;
     z-index: 2;
 }
+.ArrowStyle {
+    color:#2067ac;
+    position: fixed;
+    padding: 1rem 1rem 1rem 0.5rem;
+    border-radius: 0 50% 50% 0;
+    background-color: transparent;
+}
+.ArrowStyle:hover {
+    background-color: red;
+    text-decoration: none;
+    color:#2067ac;
+    opacity:1;
+    background-color:#add8e680;
+}
+.ArrowStyle:active {
+    background-color: red;
+    text-decoration: none;
+    color:#2067ac;
+    opacity:1;
+    background-color:#add8e6;
+}
 .cerrar {
     display:none;
 }
@@ -193,7 +214,6 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     padding: 1rem 1.3rem;
     border-radius: 50%;
     background-color: transparent;
-    border-color: black;
     bottom: 40%;
     right:-1.3rem;
     text-decoration: none;
