@@ -33,7 +33,8 @@ header {
     -webkit-background-clip: Text;
     -moz-background-clip: Text;
     color: transparent;
-
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 .titles2 {
     padding: 0.3125rem;
@@ -103,31 +104,20 @@ input#abrir-cerrar {
 }
 label[for="abrir-cerrar"] {
     cursor:pointer;
-    position: fixed;
-    bottom:60%;
-    left:0rem;
-    z-index: 2;
+    position: absolute;
+    top:0.5rem;
+    left:1rem;
+    z-index: 3;
+    font-size: 2.3rem;
 }
-.ArrowStyle {
-    color:#2067ac;
-    position: fixed;
-    padding: 1rem 1rem 1rem 0.5rem;
-    border-radius: 0 50% 50% 0;
-    background-color: transparent;
+.MenuIconStyle {
+    color: white;
+    position: absolute;
+    font-size: 2.3rem;
 }
-.ArrowStyle:hover {
-    background-color: red;
-    text-decoration: none;
-    color:#2067ac;
-    opacity:1;
-    background-color:#add8e680;
-}
-.ArrowStyle:active {
-    background-color: red;
-    text-decoration: none;
-    color:#2067ac;
-    opacity:1;
-    background-color:#add8e6;
+@-webkit-keyframes spin {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(90deg);}
 }
 .cerrar {
     display:none;
@@ -141,9 +131,21 @@ label[for="abrir-cerrar"] {
 input#abrir-cerrar:checked ~ #sidebar {
     width:18.75rem;
 }
-input#abrir-cerrar:checked + label[for="abrir-cerrar"], input#abrir-cerrar:checked ~ #contenido {
+input#abrir-cerrar:checked , input#abrir-cerrar:checked ~ #contenido {
     margin-left:18.75rem;
     transition: margin-left .4s;
+}
+input#abrir-cerrar:checked + label[for="abrir-cerrar"] {
+    margin-left:14.75rem;
+    transition: margin-left .4s;
+}
+input#abrir-cerrar:checked +label[for="abrir-cerrar"] .MenuIconStyle {
+
+}
+input#abrir-cerrar:checked + label[for="abrir-cerrar"] .MenuIconStyle {
+    animation-name: spin;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
 }
 input#abrir-cerrar:checked + label[for="abrir-cerrar"] .cerrar {
     display:inline;
@@ -157,7 +159,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     width: 0;
     top: 0;
     left: 0;
-    z-index: 3;
+    z-index: 2;
     background-color: #00324b;
     overflow-x: hidden;
     transition: 0.4s;
