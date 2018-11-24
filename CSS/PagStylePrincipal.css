@@ -68,6 +68,15 @@ a.NavLink:hover {
     text-decoration: none;
     color: black;
 }
+a.NavLink:active {
+    text-decoration: none;
+    color: black;
+}
+.ActualNav {
+    text-decoration: none;
+    color: #585858;
+    cursor: default;
+} 
 article {
     padding: 0.3125rem;
     margin-top: 0.625rem;
@@ -77,11 +86,10 @@ article {
     text-align: justify;
     z-index: 1;
 }
-.textoP {
-
-}
 p.parrafo {
     font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 footer {
     position:absolute;
@@ -221,8 +229,16 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 }
 .sidebar a:hover{
     color:#fff;
-    background-color: #00324bd4;
+    background-color: #00324b9d;
     text-decoration: none;
+}
+p.actualMenu {
+    color:#fff;
+    background-color: #00324b;
+    text-decoration: none;
+}
+p.actualMenu a:hover {
+    cursor: default;
 }
 .abrir-cerrar {
     color: #2E88C7;
@@ -233,20 +249,17 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
 }
 .goTop {
     color:#2067ac;
+    background-color:#add8e680;
     position: fixed;
-    padding: 1rem 1.3rem;
+    padding: 0.7rem 1rem;
     border-radius: 50%;
-    background-color: transparent;
     bottom: 40%;
-    right:-1.3rem;
+    right:-1rem;
     text-decoration: none;
     opacity: 0.5;
 }
 .goTop:hover {
     text-decoration: none;
-    color:#2067ac;
-    opacity:1;
-    background-color:#add8e680;
 }
 .goTop:active {
     text-decoration: none;
