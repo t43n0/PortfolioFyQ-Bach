@@ -83,8 +83,12 @@ article {
     margin-bottom: 8rem;
     margin-left:5%;
     margin-right:5%;
-    text-align: justify;
     z-index: 1;
+}
+.bloqueContent {
+    width: 100%;
+    display:flex;
+    display:-webkit-flex;
 }
 hr {
     background-color: #a7a7a7;
@@ -94,14 +98,25 @@ p.parrafo {
     font-size: 1.2rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    text-align: justify;
     display: inline-block;
 }
 p.pleft {
+    width: 100%;
     max-width: 50rem;
 }
-img.ContentIcon {
+.imgContainer {
     vertical-align: text-bottom;
-    margin-left:7%;
+    display: inline-block;
+    width: 30%;
+    min-width: 10rem;
+    margin: auto;
+}
+img.ContentIcon {
+    display: block;
+    margin: auto;
+    width: all;
+    height: all;
 }
 footer {
     position:absolute;
