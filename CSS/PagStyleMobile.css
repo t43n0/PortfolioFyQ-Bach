@@ -1,3 +1,4 @@
+@media (max-width: 1024px) {
 html {
     min-height: 100%;
     position: relative;
@@ -104,9 +105,8 @@ p.pleft {
 }
 .imgContainer {
     vertical-align: text-bottom;
-    display: inline-block;
-    width: 30%;
-    min-width: 10rem;
+    display: block;
+    width: 100%;
     margin: auto;
 }
 img.ContentIcon {
@@ -293,4 +293,5 @@ p.actualMenu a:hover {
 }
 .firm {
     color: #858585
+}
 }
