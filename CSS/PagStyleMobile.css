@@ -1,4 +1,3 @@
-@media (max-width: 1024px) {
 html {
     min-height: 100%;
     position: relative;
@@ -101,7 +100,7 @@ p.parrafo {
     display: inline-block;
 }
 p.pleft {
-    max-width: 50rem;
+    max-width: 83.625rem;
 }
 .imgContainer {
     vertical-align: text-bottom;
@@ -293,5 +292,4 @@ p.actualMenu a:hover {
 }
 .firm {
     color: #858585
-}
 }
