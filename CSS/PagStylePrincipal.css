@@ -131,13 +131,11 @@ footer {
     position:absolute;
     bottom: 0rem;    
     padding: 0.3125rem 0;
-    width: 98%;
-    margin-left:1%;
-    margin-right:1%;
-    border-radius: 5rem 5rem 0 0;
+    width: 100%;
     background-color: #9a9a9a;
     text-align: center;
     color: white;
+    box-shadow: inset 0px 5px #828282;
 }
 .Flink {
     color: white;
@@ -328,6 +326,14 @@ p.ActualMenu a:hover {
     height: 65%;
 }
 .UnderConstruction img {
+    width: 100%;
+    height: 100%;
+}
+.BigImg {
+    width: 100%;
+    height: 62%;
+}
+.BigImg img {
     width: 100%;
     height: 100%;
 }
