@@ -272,6 +272,7 @@ p.ActualMenu {
     color:#fff;
     background-color: #00324b;
     text-decoration: none;
+    padding-left: 0.16rem;
 }
 p.ActualMenu a:hover {
     cursor: default;
