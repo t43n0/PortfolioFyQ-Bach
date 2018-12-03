@@ -212,7 +212,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     color: white;
     background-color: #00324b;
     padding: 1rem;
-    box-shadow: 0rem -1rem #00324b;
+    box-shadow: 0rem -2rem #00324b;
 }
 .sideMenuTitle:hover {
     cursor: default;
