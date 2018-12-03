@@ -212,6 +212,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     color: white;
     background-color: #00324b;
     padding: 1rem;
+    box-shadow: 0rem -1rem #00324b;
 }
 .sideMenuTitle:hover {
     cursor: default;
@@ -223,7 +224,7 @@ input#abrir-cerrar:checked + label[for="abrir-cerrar"] .abrir {
     top: 0;
     left: 0;
     z-index: 2;
-    background:linear-gradient(#00324b 5rem, #004992 5rem);
+    background:#004992;
     overflow-x: hidden;
     transition: 0.4s;
     padding: 1rem 0;
