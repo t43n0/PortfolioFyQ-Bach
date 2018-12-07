@@ -79,6 +79,12 @@ a.NavLink:active {
 article {
     padding: 0.3125rem;
     margin-top: 0.625rem;
+    margin-left:5%;
+    margin-right:5%;
+}
+.articleFinal {
+    padding: 0.3125rem;
+    margin-top: 0.625rem;
     margin-bottom: 8rem;
     margin-left:5%;
     margin-right:5%;
@@ -330,11 +336,19 @@ p.ActualMenu a:hover {
     width: 100%;
     height: 100%;
 }
-.BigImg {
+.BigImgFPort {
     width: 100%;
-    height: 62%;
+    height: 32%;
 }
-.BigImg img {
+.BigImgFPort img {
+    width: 100%;
+    height: 100%;
+}
+.BigImgQPort {
+    width: 100%;
+    height: 47%;
+}
+.BigImgQPort img {
     width: 100%;
     height: 100%;
 }
