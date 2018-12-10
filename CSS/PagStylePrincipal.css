@@ -352,3 +352,13 @@ p.ActualMenu a:hover {
     width: 100%;
     height: 100%;
 }
+.ImgCredits {
+    width: 100%;
+    height: 150px;
+}
+.ImgCredits img {
+    width: all;
+    height: all;
+    display: block;
+    margin: auto;
+}
