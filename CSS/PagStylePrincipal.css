@@ -44,6 +44,15 @@ header {
 .titles3 {
     text-align: left;
 }
+.titles4 {
+    text-align: center;
+}
+.liltitle {
+    padding: 0px 5px 0px 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #d2d2d2;
+}
 .Rlink {
     color: inherit;
 }
@@ -93,10 +102,6 @@ article {
 .bloqueContent {
     width: 100%;
 }
-hr {
-    background-color: #a7a7a7;
-    width: 50%;
-}
 p.parrafo {
     font-size: 1.2rem;
     margin-left: 1rem;
@@ -115,6 +120,28 @@ p.parrafo {
         min-width: 10rem;
         margin: auto;
     }
+    .BigImgFPort {
+        width: 100%;
+        height: 32%;
+        background-image: url(/portfolioFyQ-Bach1/img/heic1502b.jpg);
+    }
+    .BigImgFPort img {
+        width: 1200px;
+        height: 384px;
+        margin: auto;
+        display: block;
+    }
+    .BigImgQPort {
+        width: 100%;
+        height: 32%;
+        background-color:#227fa8;
+    }
+    .BigImgQPort img {
+        width: 1200px;
+        height: 400px;
+        margin: auto;
+        display: block;
+    }
 }
 @media (max-width: 1338px) {
     p.pleft {
@@ -125,6 +152,22 @@ p.parrafo {
         display: block;
         width: 100%;
         margin: auto;
+    }
+    .BigImgFPort {
+        width: 100%;
+        height: 32%;
+    }
+    .BigImgFPort img {
+        width: 100%;
+        height: 100%;
+    }
+    .BigImgQPort {
+        width: 100%;
+        height: 32%;
+    }
+    .BigImgQPort img {
+        width: 100%;
+        height: 100%;
     }
 }
 img.ContentIcon {
@@ -332,24 +375,9 @@ p.ActualMenu a:hover {
 .UnderConstruction {
     width: 100%;
     height: 65%;
+    margin-bottom: 8rem;
 }
 .UnderConstruction img {
-    width: 100%;
-    height: 100%;
-}
-.BigImgFPort {
-    width: 100%;
-    height: 32%;
-}
-.BigImgFPort img {
-    width: 100%;
-    height: 100%;
-}
-.BigImgQPort {
-    width: 100%;
-    height: 37%;
-}
-.BigImgQPort img {
     width: 100%;
     height: 100%;
 }
