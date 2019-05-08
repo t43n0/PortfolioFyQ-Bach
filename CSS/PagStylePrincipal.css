@@ -398,3 +398,18 @@ p.ActualMenu a:hover {
     display: block;
     margin: auto;
 }
+.imgFoot {
+    text-align: center;
+}
+.ImgCenter {
+    vertical-align: text-bottom;
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+}
+.imgCenter img {
+    display: block;
+    margin: auto;
+    width: all;
+    height: all;
+}
