@@ -413,3 +413,7 @@ p.ActualMenu a:hover {
     width: all;
     height: all;
 }
+
+* {
+    user-select: none;
+}
