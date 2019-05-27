@@ -149,6 +149,26 @@ p.parrafo {
         border-width: 0.125rem;
         border-color: black;
     }
+
+    .parrafoExamen {
+        font-size: 1.4rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        text-align: justify;
+        display: inline-block;
+    }
+    
+    .listin {
+        text-indent: -1.1rem;
+        margin-left: 6.1rem; 
+    }
+    .firm {
+        color: #555;
+        position:absolute;
+        bottom: 0;
+        left: 0;
+        margin: 0.3rem;
+    }
 }
 @media (max-width: 1338px) {
     p.pleft {
@@ -178,6 +198,20 @@ p.parrafo {
     }
     .goTop:hover {
         text-decoration: none;
+    }
+    .parrafoExamen {
+        font-size: 1.2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        text-align: justify;
+        display: inline-block;
+    }
+    
+    .listin {
+        text-indent: -1.1rem; 
+    }
+    .firm {
+        display: none;
     }
 }
 img.ContentIcon {
@@ -376,9 +410,6 @@ p.ActualMenu a:hover {
     opacity:1;
     background-color:#add8e6;
 }
-.firm {
-    color: #858585
-}
 .UnderConstruction {
     width: 100%;
     height: 65%;
@@ -412,6 +443,36 @@ p.ActualMenu a:hover {
     margin: auto;
     width: all;
     height: all;
+}
+
+.notaSusp {
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    line-height: 6rem;
+    border-radius: 50%;
+}
+
+.notaAprob {
+    border-style: solid;
+    border-color: #00ea38;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    line-height: 6rem;
+    border-radius: 50%;
+}
+
+.notaSufic {
+    border-style: solid;
+    border-color: #fad201;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    line-height: 6rem;
+    border-radius: 50%;
 }
 
 * {
