@@ -475,6 +475,13 @@ p.ActualMenu a:hover {
     border-radius: 50%;
 }
 
-* {
-    user-select: none;
+.notaDesc {
+    border-style: solid;
+    border-color:grey;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    line-height: 6rem;
+    border-radius: 50%;
 }
+
