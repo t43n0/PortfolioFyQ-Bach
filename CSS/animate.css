@@ -7,6 +7,17 @@
  *
  * Copyright (c) 2018 Daniel Eden
  */
+html#space, body#space {
+    background-color: black;
+    animation-name: space;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+ }
+@-webkit-keyframes space {
+  0% {background-color: black;}
+  100% {background-color: white;}
+}
 
 @-webkit-keyframes bounce {
   from,
