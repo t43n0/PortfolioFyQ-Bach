@@ -26,6 +26,14 @@ header {
     font-family: 'Open Sans';
     background-color: #2067ac;
 }
+.PortContainer {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .bighead {
     background: linear-gradient(white, #d8d8d8);
     background-clip: Text;
@@ -169,6 +177,60 @@ p.parrafo {
         left: 0;
         margin: 0.3rem;
     }
+    .TPortada {
+        font-family: 'Open Sans';
+        background-color: #000;
+        color: white;
+        font-size: 5rem;
+        padding: 1rem;
+        border-style: solid;
+        border-width: 0.3rem;
+        border-color: white;
+        border-radius: 20px;
+    }
+    #buttonPort {
+        position: absolute;
+        background: #000;
+        text-align: center;
+        line-height: 9.7rem;
+        z-index: 1;
+        margin-left:auto;
+        margin-right:auto;
+        left:0;
+        right:0;
+        width:10rem;
+        height: 10rem;
+        bottom: 15rem;
+        border-style: solid;
+        border-color: white;
+        border-width: 0.3rem;
+        border-radius: 50%;
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    #buttonPort:hover {
+        position: absolute;
+        background: #000;
+        text-align: center;
+        line-height: 9.7rem;
+        z-index: 1;
+        margin-left:auto;
+        margin-right:auto;
+        left:0;
+        right:0;
+        width:10rem;
+        height: 10rem;
+        bottom: 15rem;
+        border-style: solid;
+        border-color: white;
+        border-width: 0.3rem;
+        border-radius: 50%;
+        color: #4f92d3;
+        font-size: 2rem;
+        font-weight: bold;
+    }
 }
 @media (max-width: 1338px) {
     p.pleft {
@@ -212,6 +274,62 @@ p.parrafo {
     }
     .firm {
         display: none;
+    }
+    .TPortada {
+        font-family: 'Open Sans';
+        background-color: #4f92d3;
+        color: white;
+        font-size: 3rem;
+        text-align: center;
+        padding: 0.8rem;
+        margin: 1rem;
+        border-style: solid;
+        border-width: 0.3rem;
+        border-color: white;
+        border-radius: 20px;
+    }
+    #buttonPort {
+        position: absolute;
+        background: #000;
+        text-align: center;
+        line-height: 9.7rem;
+        z-index: 1;
+        margin-left:auto;
+        margin-right:auto;
+        left:0;
+        right:0;
+        width:10rem;
+        height: 10rem;
+        bottom: 12rem;
+        border-style: solid;
+        border-color: white;
+        border-width: 0.3rem;
+        border-radius: 50%;
+        color: white;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    #buttonPort:hover {
+        position: absolute;
+        background: #000;
+        text-align: center;
+        line-height: 9.7rem;
+        z-index: 1;
+        margin-left:auto;
+        margin-right:auto;
+        left:0;
+        right:0;
+        width:10rem;
+        height: 10rem;
+        bottom: 10rem;
+        border-style: solid;
+        border-color: white;
+        border-width: 0.3rem;
+        border-radius: 50%;
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
     }
 }
 img.ContentIcon {
@@ -487,4 +605,15 @@ p.ActualMenu a:hover {
 
 .nones {
     display: none;
+}
+
+
+
+#NamePort {
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+    bottom: 0;
+    margin: 1rem;
+    font-family:
 }
