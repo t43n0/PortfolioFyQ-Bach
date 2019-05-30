@@ -617,3 +617,7 @@ p.ActualMenu a:hover {
     margin: 1rem;
     font-family:
 }
+
+* {
+    user-select: none;
+}
